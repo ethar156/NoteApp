@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:note_app/views/widgets/custom_search_bar.dart';
-import 'package:note_app/views/widgets/custom_note_item.dart';
+
 
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({super.key});
