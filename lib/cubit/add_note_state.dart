@@ -11,4 +11,9 @@ final String errmessage;
 
 AddNoteFailure(this.errmessage);
 
+ addNote(NoteModel note)
+ {
+  
+ }
+
 }
