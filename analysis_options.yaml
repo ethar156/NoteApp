@@ -31,6 +31,7 @@ analyzer:
     deprecated_member_use_from_same_package: ignore
     directives_ordering: ignore
     flutter_style_todos: ignore ignore ignore ignore
+    inference_failure_on_function_invocation: ignore
     inference_failure_on_function_return_type: ignore
     must_call_super: ignore
     prefer_final_locals: ignore
