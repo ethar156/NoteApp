@@ -3,6 +3,7 @@
         "Autovalidate",
         "errmessage",
         "formkey",
-        "Modalprogresshud"
+        "Modalprogresshud",
+        "notemodel"
     ]
 }
