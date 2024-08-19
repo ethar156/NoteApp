@@ -23,6 +23,7 @@ analyzer:
     # allow deprecated members (we do this because otherwise we have to annotate
     # every member in every test, assert, etc, when we or the Dart SDK deprecates
     # something (https://github.com/flutter/flutter/issues/143312)
+    always_declare_return_types: ignore
     always_specify_types: ignore
     avoid_bool_literals_in_conditional_expressions: ignore
     avoid_print: ignore
@@ -30,10 +31,12 @@ analyzer:
     deprecated_member_use: ignore
     deprecated_member_use_from_same_package: ignore
     directives_ordering: ignore
+    eol_at_end_of_file: ignore
     flutter_style_todos: ignore ignore ignore ignore
     inference_failure_on_function_invocation: ignore
     inference_failure_on_function_return_type: ignore
     must_call_super: ignore
+    non_constant_identifier_names: ignore
     prefer_final_locals: ignore
     prefer_relative_imports: ignore
     sort_constructors_first: ignore
