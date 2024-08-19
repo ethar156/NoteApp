@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
-import 'package:note_app/cubit/add_note_cubit.dart';
-import 'package:note_app/models/note_model.dart';
-import 'package:note_app/simple_bloc_observer.dart';
-import 'package:note_app/views/note_view.dart';
-import 'package:note_app/views/widgets/constants.dart';
+import 'cubit/add_note_cubit.dart';
+import 'models/note_model.dart';
+import 'simple_bloc_observer.dart';
+import 'views/note_view.dart';
+import 'views/widgets/constants.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() async  {
