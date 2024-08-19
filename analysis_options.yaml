@@ -24,6 +24,8 @@ analyzer:
     # every member in every test, assert, etc, when we or the Dart SDK deprecates
     # something (https://github.com/flutter/flutter/issues/143312)
     always_specify_types: ignore
+    avoid_bool_literals_in_conditional_expressions: ignore
+    avoid_print: ignore
     depend_on_referenced_packages: ignore ignore
     deprecated_member_use: ignore
     deprecated_member_use_from_same_package: ignore
