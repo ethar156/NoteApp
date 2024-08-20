@@ -33,7 +33,7 @@ class _AddNoteFormState extends State<AddNoteForm> {
           height: 32,
         ),
 
-        ColorItem(),
+          
         CustomTextField(
           onSaved: (value) {
             title = value;
@@ -50,9 +50,12 @@ class _AddNoteFormState extends State<AddNoteForm> {
           hint: 'content',
           maxLines: 5,
         ),
-         ColorsListView(),
         const SizedBox(
-          height: 40,
+          height: 32,
+        ),
+        const ColorsListView(),
+        const SizedBox(
+          height: 32,
         ),
         BlocBuilder<AddNoteCubit, AddNoteState>(
           builder: (context, state) {

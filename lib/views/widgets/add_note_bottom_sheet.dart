@@ -6,7 +6,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../cubit/notes_cubit/notes_cubit.dart';
 
 class AddNoteBottomSheet extends StatefulWidget {
-  AddNoteBottomSheet({super.key});
+  const AddNoteBottomSheet({super.key});
 
   @override
   State<AddNoteBottomSheet> createState() => _AddNoteBottomSheetState();

@@ -23,7 +23,7 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
       padding: const EdgeInsets.symmetric(horizontal: 24),
       child: Column(
         children:  [
-          SizedBox(
+          const SizedBox(
             height: 50,
           ),
           CustomAppBar(
@@ -38,7 +38,7 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
             title: 'Edit Note',
             icon: Icons.check,
           ),
-          SizedBox(
+          const SizedBox(
             height: 50,
           ),
           CustomTextField(
@@ -46,7 +46,7 @@ class _EditNoteViewBodyState extends State<EditNoteViewBody> {
               title = value;
             },
             hint: widget.note.title),
-          SizedBox(
+          const SizedBox(
             height: 16,
           ),
           CustomTextField(
