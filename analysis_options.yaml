@@ -37,7 +37,7 @@ analyzer:
     inference_failure_on_function_return_type: ignore
     must_call_super: ignore
     non_constant_identifier_names: ignore
-    prefer_final_locals: ignore
+    prefer_final_locals: ignore ignore
     prefer_relative_imports: ignore
     sort_constructors_first: ignore
     strict_raw_type: ignore
