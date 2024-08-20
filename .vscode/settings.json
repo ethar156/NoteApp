@@ -4,6 +4,7 @@
         "Blocrovider",
         "errmessage",
         "formkey",
+        "formmattedcurrent",
         "initstate",
         "Modalprogresshud",
         "notemodel"

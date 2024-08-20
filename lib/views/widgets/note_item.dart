@@ -12,50 +12,48 @@ class NoteItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.push(context,MaterialPageRoute(builder: (context)
-        {
+        Navigator.push(context, MaterialPageRoute(builder: (context) {
           return const EditNoteView();
         }));
       },
       child: Container(
-        padding: const EdgeInsets.only(top:24, bottom: 24, left: 16),
+        padding: const EdgeInsets.only(top: 24, bottom: 24, left: 16),
         decoration: BoxDecoration(
-          color: Color(0xffFFCC80 ),
+          color: Color(0xffFFCC80),
           borderRadius: BorderRadius.circular(16),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             ListTile(
-              title: Text(note.title,
-              style: TextStyle(
-                color: Color(note.color),
-                fontSize: 26
-              ),),
+              title: Text(
+                note.title,
+                style: TextStyle(color: Color(note.color), fontSize: 26),
+              ),
               subtitle: Padding(
-                padding: const EdgeInsets.only(top:16,
-                bottom: 16 ),
-                child: Text(note.subtitle,
-                style: TextStyle(
-                  color: Colors.black.withOpacity(.5),
-                  fontSize: 18
-                ),),
+                padding: const EdgeInsets.only(top: 16, bottom: 16),
+                child: Text(
+                  note.subtitle,
+                  style: TextStyle(
+                      color: Colors.black.withOpacity(.5), fontSize: 18),
+                ),
               ),
               trailing: IconButton(
-                onPressed: (){},
-                 icon:const Icon(
-                  FontAwesomeIcons.trash
-                 ,color: Colors.black,
-                 size: 24,)),
+                  onPressed: () {},
+                  icon: const Icon(
+                    FontAwesomeIcons.trash,
+                    color: Colors.black,
+                    size: 24,
+                  )),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(right: 24),
+              child: Text(
+                note.date,
+                style: TextStyle(
+                    color: Colors.black.withOpacity(.4), fontSize: 16),
+              ),
             )
-            ,Padding(
-              padding: const EdgeInsets.only(right:24 ),
-              child: Text(note.date,
-              style: TextStyle(
-                color: Colors.black.withOpacity(.4),
-                fontSize: 16
-              ),),
-            ) 
           ],
         ),
       ),

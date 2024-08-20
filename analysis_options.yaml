@@ -42,6 +42,7 @@ analyzer:
     sort_constructors_first: ignore
     strict_raw_type: ignore
     unused_element: ignore
+    unused_local_variable: ignore
   exclude:
     - "bi    prefer_relative_imports: ignore
 n/cache/**"
